@@ -47,3 +47,6 @@ try:
 
 except:
     pass
+
+
+driver.find_element(By.XPATH, '//a[@data-testid="pagination-forward"]')
