@@ -14901,3 +14901,1431 @@ JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error:
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
 JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1680639822001	geckodriver	INFO	Listening on 127.0.0.1:55466
+1680639825057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileH7pCj5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680639825543	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680639825551	Marionette	INFO	Listening on port 55474
+Read port: 55474
+WebDriver BiDi listening on ws://127.0.0.1:55467
+1680639825738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileH7pCj5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55467/devtools/browser/8fb4a5f6-2c10-4195-806c-2584bc956496
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YzZmA7a08v9f087fwqUDZorL-7TBHmPOgPW1cUS8ffQ.js line 2 > eval line 1225 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.ampproject.org/rtv/012303151621000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh4.googleusercontent.com/proxy/EZ6zGnP_fZo0WYkGxNC1w22UtG7qTzLf8lU6jOOnZq1AXl3PDOxfIXy7nHkdhRu8i5LewoKTJNRZ3kJjIyr7D66yI5syMH9c6VRbhWqOEBgwUEtpkJaxh1D5nE3s-5kIHwVSg3lH07ZXorfhwbBnaBUv=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012303151621000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh4.googleusercontent.com/proxy/EZ6zGnP_fZo0WYkGxNC1w22UtG7qTzLf8lU6jOOnZq1AXl3PDOxfIXy7nHkdhRu8i5LewoKTJNRZ3kJjIyr7D66yI5syMH9c6VRbhWqOEBgwUEtpkJaxh1D5nE3s-5kIHwVSg3lH07ZXorfhwbBnaBUv=w1200-h1200-rp-pd​​​
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YzZmA7a08v9f087fwqUDZorL-7TBHmPOgPW1cUS8ffQ.js line 2 > eval line 661 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680639844213	Marionette	INFO	Stopped listening on port 55474
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1680639935144	geckodriver	INFO	Listening on 127.0.0.1:52281
+1680639938148	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52282" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileHjEhHl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680639938652	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680639938657	Marionette	INFO	Listening on port 52289
+Read port: 52289
+WebDriver BiDi listening on ws://127.0.0.1:52282
+1680639938812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileHjEhHl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52282/devtools/browser/501b627f-6ded-4218-afbf-2c9aea6ca094
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YzZmA7a08v9f087fwqUDZorL-7TBHmPOgPW1cUS8ffQ.js line 2 > eval line 4843 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YzZmA7a08v9f087fwqUDZorL-7TBHmPOgPW1cUS8ffQ.js line 2 > eval line 4381 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680639954576	Marionette	INFO	Stopped listening on port 52289
+Dynamically enable window occlusion 1
+[Parent 23372, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:828:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1680640031531	geckodriver	INFO	Listening on 127.0.0.1:52477
+1680640034537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52478" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileB5o0iW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680640035024	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680640035030	Marionette	INFO	Listening on port 52485
+Read port: 52485
+WebDriver BiDi listening on ws://127.0.0.1:52478
+1680640035193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileB5o0iW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52478/devtools/browser/6dbc4855-bb19-4fa7-ab33-2b2eadcecb09
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YzZmA7a08v9f087fwqUDZorL-7TBHmPOgPW1cUS8ffQ.js line 2 > eval line 6954 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680640059794	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680640062922	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YzZmA7a08v9f087fwqUDZorL-7TBHmPOgPW1cUS8ffQ.js line 2 > eval line 5824 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YzZmA7a08v9f087fwqUDZorL-7TBHmPOgPW1cUS8ffQ.js line 2 > eval line 5172 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YzZmA7a08v9f087fwqUDZorL-7TBHmPOgPW1cUS8ffQ.js line 2 > eval line 2530 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680640092520	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680640112835	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YzZmA7a08v9f087fwqUDZorL-7TBHmPOgPW1cUS8ffQ.js line 2 > eval line 56 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YzZmA7a08v9f087fwqUDZorL-7TBHmPOgPW1cUS8ffQ.js line 2 > eval line 1029 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680640156865	Marionette	INFO	Stopped listening on port 52485
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680980313562	geckodriver	INFO	Listening on 127.0.0.1:63594
+1680980316605	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63595" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofile6eosLo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1680980317298	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1680980317304	Marionette	INFO	Listening on port 63619
+Read port: 63619
+WebDriver BiDi listening on ws://127.0.0.1:63595
+1680980317502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofile6eosLo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:63595/devtools/browser/b368d5de-fcb3-40a8-b926-6a1c16b344fb
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qMU6ruUuZ1zoKC0LZ3Jpmtn3twdVMxn7JXARaYw8J-4.js line 2 > eval line 2582 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qMU6ruUuZ1zoKC0LZ3Jpmtn3twdVMxn7JXARaYw8J-4.js line 2 > eval line 4937 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qMU6ruUuZ1zoKC0LZ3Jpmtn3twdVMxn7JXARaYw8J-4.js line 2 > eval line 1305 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qMU6ruUuZ1zoKC0LZ3Jpmtn3twdVMxn7JXARaYw8J-4.js line 2 > eval line 500 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qMU6ruUuZ1zoKC0LZ3Jpmtn3twdVMxn7JXARaYw8J-4.js line 2 > eval line 5628 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qMU6ruUuZ1zoKC0LZ3Jpmtn3twdVMxn7JXARaYw8J-4.js line 2 > eval line 3163 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680980378745	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/qMU6ruUuZ1zoKC0LZ3Jpmtn3twdVMxn7JXARaYw8J-4.js line 2 > eval line 1817 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1680980437480	Marionette	INFO	Stopped listening on port 63619
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681821545874	geckodriver	INFO	Listening on 127.0.0.1:57007
+1681821548872	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57008" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileJPHlZM"
+1681821617111	geckodriver	INFO	Listening on 127.0.0.1:57069
+1681821620140	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57070" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileuIPQkN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681821620638	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681821620644	Marionette	INFO	Listening on port 57077
+Read port: 57077
+WebDriver BiDi listening on ws://127.0.0.1:57070
+1681821620827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileuIPQkN\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57070/devtools/browser/c378f46c-a108-4ab5-8d6e-c6194af44708
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681821631987	Marionette	INFO	Stopped listening on port 57077
+Dynamically enable window occlusion 1
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+[Parent 16004, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1681821656657	geckodriver	INFO	Listening on 127.0.0.1:57163
+1681821659676	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57164" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofilepukQgD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681821660247	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681821660256	Marionette	INFO	Listening on port 57172
+Read port: 57172
+WebDriver BiDi listening on ws://127.0.0.1:57164
+1681821660446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofilepukQgD\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57164/devtools/browser/6684d1f8-821c-4993-ab72-0d76289011ba
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681821670767	Marionette	INFO	Stopped listening on port 57172
+Dynamically enable window occlusion 1
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1681821717985	geckodriver	INFO	Listening on 127.0.0.1:57239
+1681821721033	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57240" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofiletyG5y9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681821721493	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681821721501	Marionette	INFO	Listening on port 57247
+Read port: 57247
+WebDriver BiDi listening on ws://127.0.0.1:57240
+1681821721735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofiletyG5y9\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:57240/devtools/browser/7ad47208-19aa-43e4-bfc1-5880d6c7725f
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 2370 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:187:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:104:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:285:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:729:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:772:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:649:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2397))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: #onResponseHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1081:5
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:570:31
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:679:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1081, column: 5
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/shared/network-observer/NetworkObserver.sys.mjs", 1081))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:91:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:187:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:104:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:285:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:729:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:338:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 91, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 91))
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+1681821974778	geckodriver	INFO	Listening on 127.0.0.1:62370
+1681821977770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62371" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileUEXOPl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681821978268	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681821978274	Marionette	INFO	Listening on port 62378
+Read port: 62378
+WebDriver BiDi listening on ws://127.0.0.1:62371
+1681821978434	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileUEXOPl\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62371/devtools/browser/c17fb26c-c911-497a-a86c-75d5e9b22441
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 1472 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 4514 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1681822152858	geckodriver	INFO	Listening on 127.0.0.1:62658
+1681822155894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62659" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofile2pk4h9"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681822156370	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681822156375	Marionette	INFO	Listening on port 62666
+Read port: 62666
+WebDriver BiDi listening on ws://127.0.0.1:62659
+1681822156557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofile2pk4h9\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62659/devtools/browser/54279e61-7305-45a0-92fd-977987e8a89f
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681822315153	Marionette	INFO	Stopped listening on port 62666
+Dynamically enable window occlusion 1
+1681822328982	geckodriver	INFO	Listening on 127.0.0.1:62820
+1681822332007	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62821" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofilenLjpZY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681822332486	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681822332493	Marionette	INFO	Listening on port 62828
+Read port: 62828
+WebDriver BiDi listening on ws://127.0.0.1:62821
+1681822332654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofilenLjpZY\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:62821/devtools/browser/4add2d9a-9d17-4c8c-ae3d-03fcd2715dff
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 3737 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 91: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 5913 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 236, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.error: "Can't start recording from event type: " "paste"
+1681822512367	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 1285 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 2383 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681822651386	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1681822651454	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1681822718413	Marionette	INFO	Stopped listening on port 62828
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 236, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1681822742284	geckodriver	INFO	Listening on 127.0.0.1:63010
+1681822745304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63011" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileNlXXYF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681822745777	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681822745783	Marionette	INFO	Listening on port 63018
+Read port: 63018
+WebDriver BiDi listening on ws://127.0.0.1:63011
+1681822745957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileNlXXYF\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:63011/devtools/browser/0701ce57-ad93-4ca3-bcbd-067433dd09b0
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 2611 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 92: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 92: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 1022 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 554 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 599))
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 432: TypeError: channel is null
+1681823113518	geckodriver	INFO	Listening on 127.0.0.1:59682
+1681823116553	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59683" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofiledy0DCS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681823117026	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681823117032	Marionette	INFO	Listening on port 59690
+Read port: 59690
+WebDriver BiDi listening on ws://127.0.0.1:59683
+1681823117220	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofiledy0DCS\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:59683/devtools/browser/1f27509b-5c10-455b-b8b6-94d3e59612df
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 762))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 414))
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 5278 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681823283427	geckodriver	INFO	Listening on 127.0.0.1:59969
+1681823286471	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59970" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofile8IVWNn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681823286954	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681823286959	Marionette	INFO	Listening on port 59977
+Read port: 59977
+WebDriver BiDi listening on ws://127.0.0.1:59970
+1681823287129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofile8IVWNn\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:59970/devtools/browser/7ad34c5f-a2e8-44a4-b701-15583c6e080a
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript error: https://cdn.ampproject.org/rtv/012304062309000/amp4ads-v0.mjs, line 2: Error: Failed to load: https://lh5.googleusercontent.com/proxy/CPWhsvsTvSEky0UDnJB_JqQ5bnS3spY5PpPH6Tf-MrpKaK6KdqwBugaBf0dX_xJzC5PK2fN5_mnSsjYDwwhhtXNlS8nRGkFlP4q-oQwpe7gy5B2DGioYTZ2OG8dYScgisUkKRjrqg2yawD4j3txODx1fJb9uh4nwFLBEphUA9YZL51xi=w1200-h1200-rp-pd​​​
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 4642 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 92: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6499 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 92: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6045 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 92: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 985 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 92: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 949 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 199 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681823353140	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681823364430	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/17559606328878084292/jac_970x250.js, line 4386: TypeError: r.pics is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 355 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681823370883	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://tpc.googlesyndication.com/sadbundle/$csp%3Der3$/17559606328878084292/jac_970x250.js, line 4386: TypeError: r.pics is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681846093878	geckodriver	INFO	Listening on 127.0.0.1:50013
+1681846096933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50014" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofile1IpeN0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681846097391	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681846097397	Marionette	INFO	Listening on port 50021
+WebDriver BiDi listening on ws://127.0.0.1:50014
+Read port: 50021
+1681846097589	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofile1IpeN0\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:50014/devtools/browser/17e31b90-2f56-4ef0-9f5c-f2446009941c
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 91: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6309 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6743 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 91: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 3722 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 7098 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 1621 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 2631 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 5579 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6870 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 5189 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 4997 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 259 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681846145400	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 2801 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6426 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 346 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 754 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 5778 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6843 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 5728 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 591 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 5677 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 1241 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 3959 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 2494 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681846208986	Marionette	INFO	Stopped listening on port 50021
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681847029356	geckodriver	INFO	Listening on 127.0.0.1:53306
+1681847032409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53307" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofilep0SrsI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681847032865	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681847032871	Marionette	INFO	Listening on port 53314
+Read port: 53314
+WebDriver BiDi listening on ws://127.0.0.1:53307
+1681847033050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofilep0SrsI\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53307/devtools/browser/c7cc8b2f-c878-4ed4-8437-8b28e08eac9e
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 454 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 92: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 7518 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 7739 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 1589 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 16660, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 92: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 92: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 3197 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 92: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 2342 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 3938 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 4081 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 566 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 1448 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 757 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 5134 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 3350 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 477 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6537 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681847143670	Marionette	INFO	Stopped listening on port 53314
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681847405864	geckodriver	INFO	Listening on 127.0.0.1:53473
+1681847408881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53474" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileso8EdM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681847409308	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681847409314	Marionette	INFO	Listening on port 53484
+Read port: 53484
+WebDriver BiDi listening on ws://127.0.0.1:53474
+1681847409487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofileso8EdM\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:53474/devtools/browser/49cb05e7-b9cb-4d15-ad0b-32abe3e51555
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 3134 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 92: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 4008 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 92: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 4780 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 4511 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 62 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 4933 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681847447751	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6155 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 7044 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 7276 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681847463755	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 4404 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681847468654	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6225 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 4381 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 2059 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 2220 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6943 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 4184 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 3331 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681847510414	Marionette	INFO	Stopped listening on port 53484
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681847658836	geckodriver	INFO	Listening on 127.0.0.1:55958
+1681847661873	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55959" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofilepLJEkm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681847662316	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681847662321	Marionette	INFO	Listening on port 55966
+WebDriver BiDi listening on ws://127.0.0.1:55959
+Read port: 55966
+1681847662621	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofilepLJEkm\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55959/devtools/browser/4c2be0b1-235c-46c7-af97-4ddeb55abe01
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.olx.ua/app/static/js/olxeuweb.fingerprint.4a4c2f494.chunk.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 91: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 1869 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6790 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Parent 9860, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 91: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 91: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 894 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6111053159423085, line 91: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 7182 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1681847706820	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 1874 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 6208 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 5251 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 3944 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 5102 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 418 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 3240 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 5748 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/kBq9KUdG_fSJS_g22hG5IJOh94ldGEt94wg22nyNOr4.js line 2 > eval line 5657 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681847775290	Marionette	INFO	Stopped listening on port 55966
+Dynamically enable window occlusion 1
